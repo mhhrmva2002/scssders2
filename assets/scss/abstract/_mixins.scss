@@ -1,0 +1,15 @@
+@media only screen and (max-width: 990px) {
+    nav{
+        ul{
+            display: none !important;
+        }
+        button{
+            display: block !important;
+            background-color: rgba(0, 0, 0, 0);
+            border: 1px solid $gray-color;
+            border-radius: 3px;
+            height: 20px;
+            padding: 5px;
+           }
+    }
+}

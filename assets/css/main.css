@@ -1,0 +1,98 @@
+@media only screen and (max-width: 990px) {
+  nav ul {
+    display: none !important;
+  }
+  nav button {
+    display: block !important;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid gray;
+    border-radius: 3px;
+    height: 20px;
+    padding: 5px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(39, 37, 37);
+}
+nav h2 {
+  font-family: "Work Sans", sans-serif !important;
+}
+nav h2 a {
+  color: orange;
+}
+nav ul {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+nav li:hover {
+  color: orange;
+}
+nav button {
+  display: none;
+  color: gray;
+}
+
+.Stylish-Portfolio {
+  width: 100%;
+  height: 90vh;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Stylish-Portfolio .Portfolio {
+  text-align: center;
+  font-family: "Schibsted Grotesk", sans-serif;
+  width: 50%;
+  height: 40%;
+  font-size: 50px;
+  color: rgb(39, 37, 37);
+}
+.Stylish-Portfolio .Portfolio p {
+  font-size: 30px;
+}
+.Stylish-Portfolio .Portfolio button {
+  padding: 3.5% 7%;
+  color: white;
+  background-color: #1D809F;
+  border-radius: 5px;
+  margin-top: 10%;
+  border: none;
+}
+
+.Recent-Projects {
+  font-family: "Schibsted Grotesk", sans-serif;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Recent-Projects p {
+  color: orange;
+}
+.Recent-Projects h1 {
+  font-size: 30px;
+}/*# sourceMappingURL=main.css.map */
